@@ -1,3 +1,9 @@
+/*Variables del CSS*/
+:root{
+    --primero: #1875E8;
+    --segundo: #ffffff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +34,7 @@ body::before {
 
 .container {
     width: 1200px;
-    height: 600px;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,8 +49,13 @@ body::before {
 .container__contenido {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 0;
+}
+
+.container__contenido .container__imagen-robot{
+    width: 40%;
 }
 
 .container__informaciones {
